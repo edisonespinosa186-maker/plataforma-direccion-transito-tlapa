@@ -1,1 +1,63 @@
-<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\">\n    <title>Licencia de Tránsito</title>\n</head>\n<body>\n    <div class=\"container\">\n        <header class=\"text-center my-4\">\n            <h1>Licencia de Tránsito Tlapa</h1>\n            <img src=\"path_to_banner_image.jpg\" alt=\"Banner\" class=\"img-fluid\">\n        </header>\n        <form>\n            <div class=\"form-group row\">\n                <label for=\"folio\" class=\"col-sm-2 col-form-label\">Folio</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"folio\" value=\"C66788189\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"tipo\" class=\"col-sm-2 col-form-label\">Tipo</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"tipo\" value=\"Licencia\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"nombre\" class=\"col-sm-2 col-form-label\">Nombre</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"nombre\" value=\"JUAN MANUEL\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"apellidos\" class=\"col-sm-2 col-form-label\">Apellidos</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"apellidos\" value=\"CORONEL MORALE\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"curp\" class=\"col-sm-2 col-form-label\">CURP</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"curp\" value=\"COMJ861106HDFRRN07\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"vigencia\" class=\"col-sm-2 col-form-label\">Vigencia</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"text\" class=\"form-control\" id=\"vigencia\" value=\"5 AÑOS\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <label for=\"vence\" class=\"col-sm-2 col-form-label\">Vence</label>\n                <div class=\"col-sm-10\">\n                    <input type=\"date\" class=\"form-control\" id=\"vence\" value=\"2030-12-05\" required>\n                </div>\n            </div>\n            <div class=\"form-group row\">\n                <div class=\"col-sm-10\">\n                    <button type=\"submit\" class=\"btn btn-primary\">Guardar</button>\n                </div>\n            </div>\n        </form>\n    </div>\n    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js\"></script>\n    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n</body>\n</html>\n
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Licencias de Tránsito</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4>Licencias de Tránsito</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="photoUpload">Subir Foto</label>
+                            <input type="file" class="form-control" id="photoUpload" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="curp">CURP</label>
+                                <input type="text" class="form-control" id="curp" value="COMJ861106HDFRRN07">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" value="JUAN MANUEL">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" class="form-control" id="apellido" value="CORONEL MORALE">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="folio">Folio</label>
+                                <input type="text" class="form-control" id="folio" value="C66788189">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="vigencia">Vigencia</label>
+                                <input type="text" class="form-control" id="vigencia" value="5 AÑOS">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="vence">Vence</label>
+                                <input type="text" class="form-control" id="vence" value="05-12-2030">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
